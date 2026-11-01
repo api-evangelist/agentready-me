@@ -1,4 +1,4 @@
-# agentready-me
+# AgentReady.me
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,118 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-agentready-me is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://agentready.me/
+AgentReady.me provides agent journey audits and verified fixes, helping AI agents discover, cite, and recommend websites. Their platform offers public scans, privacy‑focused assessments, and integration with tools like ChatGPT, Perplexity, and Google AI. Users can obtain copy‑paste prompts for various code assistants to improve site visibility for agents.
+
+**Areas:** AI · AgentReadiness · WebAudit · SEO · Platform
+
+## AgentReady.me on APIs.io
+
+Everything profiled for AgentReady.me is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/agentready-me/](https://apis.io/providers/agentready-me/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [AgentReady.me Commerce API](https://apis.io/apis/agentready-me/agentready-me-commerce-api/) — Public availability information for AgentReady checkout.
+- [AgentReady.me Diagnostics API](https://apis.io/apis/agentready-me/agentready-me-diagnostics-api/) — Free, evidence-status diagnostics with explicit static/runtime limitations.
+- [AgentReady.me Scans API](https://apis.io/apis/agentready-me/agentready-me-scans-api/) — Evidence-backed agent-readiness analysis for public URLs.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Agentready Me Agentic Access](https://apis.io/agentic-access/agentready-me/agentready-me-agentic-access/)
+
+#### JSON Schema (2)
+
+The data models the API reads and writes.
+
+- [PublicScanRequest](https://apis.io/schemas/agentready-me/agentready-me-public-scan-request/)
+- [ScanResult](https://apis.io/schemas/agentready-me/agentready-me-scan-result/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Agentready Me Context](https://apis.io/jsonld/agentready-me/agentready-me-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [AgentReady.me API Rules](https://apis.io/rules/agentready-me/agentready-me-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Agentready Me Domain Security](https://apis.io/security/agentready-me/agentready-me-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.agentready.me/)
+- [Documentation](https://www.agentready.me/resources)
+- [API reference](https://www.agentready.me/developers)
+- [Pricing](https://www.agentready.me/pricing)
+- [Terms of service](https://www.agentready.me/terms)
+- [Privacy policy](https://www.agentready.me/privacy)
+- [GitHub](https://github.com/Reload)
+
+## API Evangelist rating
+
+**Kin Score 44.9** — developing · rubric 0.25.0 · scored 2026-11-01
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 56.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 23.1 |
+| Access clarity | 44.7 |
+
+**Agent readiness 43.2** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 17.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/agentready-me/](https://apis.io/providers/agentready-me/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for AgentReady.me: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/agentready-me/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
