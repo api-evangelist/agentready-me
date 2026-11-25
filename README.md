@@ -66,7 +66,7 @@
 
 AgentReady.me provides agent journey audits and verified fixes, helping AI agents discover, cite, and recommend websites. Their platform offers public scans, privacy‑focused assessments, and integration with tools like ChatGPT, Perplexity, and Google AI. Users can obtain copy‑paste prompts for various code assistants to improve site visibility for agents.
 
-**Areas:** AI · AgentReadiness · WebAudit · SEO · Platform
+**Areas:** Artificial Intelligence · Agent Readiness · Web Audit · SEO · Platform
 
 ## AgentReady.me on APIs.io
 
@@ -86,12 +86,17 @@ Each property below is a page on APIs.io carrying the machine-readable artifact 
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Agentready Me Agentic Access](https://apis.io/agentic-access/agentready-me/agentready-me-agentic-access/)
+- [AgentReady.me Agentic Access](https://apis.io/agentic-access/agentready-me/agentready-me-agentic-access/)
 
-#### JSON Schema (2)
+#### JSON Schema (7)
 
 The data models the API reads and writes.
 
+- [A2aAgentCardToolRequest](https://apis.io/schemas/agentready-me/agentready-me-a2a-agent-card-tool-request/)
+- [CheckoutAvailability](https://apis.io/schemas/agentready-me/agentready-me-checkout-availability/)
+- [CrawlerAccessToolRequest](https://apis.io/schemas/agentready-me/agentready-me-crawler-access-tool-request/)
+- [DiagnosticToolReport](https://apis.io/schemas/agentready-me/agentready-me-diagnostic-tool-report/)
+- [OpenApiReadinessToolRequest](https://apis.io/schemas/agentready-me/agentready-me-open-api-readiness-tool-request/)
 - [PublicScanRequest](https://apis.io/schemas/agentready-me/agentready-me-public-scan-request/)
 - [ScanResult](https://apis.io/schemas/agentready-me/agentready-me-scan-result/)
 
@@ -111,7 +116,7 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Agentready Me Domain Security](https://apis.io/security/agentready-me/agentready-me-domain-security/)
+- [AgentReady.me Domain Security](https://apis.io/security/agentready-me/agentready-me-domain-security/)
 
 ## Where to find this API
 
@@ -127,23 +132,23 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 44.9** — developing · rubric 0.25.0 · scored 2026-11-01
+**Kin Score 39.4** — developing · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 66.1 |
-| Contract quality | 56.7 |
-| Contract governance | 79.1 |
-| Operational transparency | 5.3 |
+| Discoverability | 83.9 |
+| Contract quality | 59.8 |
+| Contract governance | 22.0 |
+| Operational transparency | 4.8 |
 | Developer ergonomics | 23.1 |
-| Access clarity | 44.7 |
+| Access clarity | 46.8 |
 
-**Agent readiness 43.2** — agent-ready (gated down from agent-native)
+**Agent readiness 38.2** — agent-ready
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | — |
@@ -163,8 +168,12 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | yes |
 
-**Regulatory alignment 17.3** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 11.8** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/agentready-me/](https://apis.io/providers/agentready-me/).
 
